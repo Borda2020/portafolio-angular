@@ -1,13 +1,12 @@
-<div class="ae-container-fluid ae-container-fluid--inner rk-main">    
-  <div class="ae-grid au-xs-ta-center au-mb-4">
+<div class="ae-grid au-xs-ta-center au-mb-4">
       <div *ngFor="let persona of infoService.equipo" class="animated bounceInUp ae-grid__item item-lg-4 ae-kappa au-mb-3">
         <img [src]="persona.url" alt="" class="au-mb-3">
-        <h5 class="ae-u-bolder au-mt-2">{{ persona.nombre }}</h5>
-        <p class="ae-u-bolder au-mb-3">{{ persona.subtitulo }}</p>
-        <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.frase }}</p>
+        <h5 class="animated bounceInUp ae-u-bolder au-mt-2">{{ persona.nombre }}</h5>
+        <p class="animated bounceInUp ae-u-bolder au-mb-3">{{ persona.subtitulo }}</p>
+        <p class="animated bounceInUp au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.frase }}</p>
         <a target="_blank" href="https://twitter.com/{{ persona.twitter }}" class="ae-u-bolder au-underline">{{ persona.twitter }}</a>
   </div>
- </div>
+</div>
     <div class="ae-grid au-pt-2">
       <div class="ae-grid__item item-lg-8 item-lg--offset-2">
         <h4 class="ae-u-bolder">Title example</h4>
@@ -36,4 +35,3 @@
         </span>
       </a>
     </p>
-  </div>
