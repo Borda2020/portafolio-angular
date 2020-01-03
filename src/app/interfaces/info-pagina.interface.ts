@@ -7,5 +7,6 @@ export interface InfoPagina {
   twitter?: string;
   instagram?: string;
   tublr?: string;
+  youtube?: string;
   equipo_trabajo?: any[];
 }
